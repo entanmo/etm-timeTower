@@ -1,0 +1,83 @@
+.card-wrapper{
+  width: 344px;
+  height: 196px;
+  border: 1px solid rgba(112, 239, 252, 0.25);
+  background-color: rgba(112, 239, 252, 0.1);
+  border-radius: 15px;
+  padding: 3px;
+  margin-right: 20px;
+  .card-inner{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    border: 1px solid rgba(112, 239, 252, 0.25);
+    h3{
+      margin-bottom: 22px;
+      margin-top: 18px;
+    }
+    .label{
+      display: inline-block;
+      width: 86px;
+    }
+    .line-input{
+      width: 86px;
+      height: 24px;
+      border: 0 none;
+      border-radius: 20px;
+      background-color: rgba(112, 239, 252, 0.22);
+      outline: none;
+      padding-left: 10px;
+      font-size: 12px;
+    }
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none !important;
+        margin: 0;
+    }
+    .range{
+      text-align: left;
+      label{
+        color: #70effc;
+        text-align: right;
+      }
+      .range-input{
+        margin-left: 8px;
+        margin-right: 8px;
+      }
+    }
+    .number{
+      text-align: left;
+      margin-top: 12px;
+      label{
+        color: #70effc;
+        text-align: right;
+      }
+    }
+    .number-input{
+      width: 206px;
+      margin-left: 8px;
+    }
+    .radio-wrapper{
+      margin-top: 18px;
+      text-align: center;
+      padding-left: 8px;
+      .font12{
+        font-size: 12px;
+        color: #70effc;
+        margin-right:0;
+      }
+      .ant-radio{
+        font-size: 12px;
+      }
+      .ant-radio-checked .ant-radio-inner, .ant-radio-inner:hover, .ant-radio-checked:after ,.ant-radio-wrapper:hover, .ant-radio:hover{
+        border-color: #de0c46;
+      }
+      .ant-radio-wrapper:hover .ant-radio .ant-radio-inner{
+        border-color: #de0c46;
+      }
+      .ant-radio-inner:after{
+        background-color:#de0c46;
+      }
+    }
+  }
+}

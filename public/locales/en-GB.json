@@ -1,0 +1,57 @@
+{
+  "TITLE":"Blockchain-based Quantum Random Number Generator (QRNG)",
+  "TITLERNG":"Blockchain-based  Random Number Generator (RNG)",
+  "TOTAL":"Total",
+  "UNIT":"",
+
+  "TRY_IT_GROUP":"Group ",
+  "TRY_MIN":"Range ",
+  "TRY_MAX":"To",
+  "TRY_NUM":"Number ",
+  "TRY_REPEATABLE":"Repeatable",
+  "TRY_ARRANGEMENT":"Arrangement",
+  "TRY_COMBINATION":"Combination",
+  "TRY_SUBMIT":"GENERATE RANDOM NUMBERS",
+  "TRY_RESULT":"Result",
+  "TRY_DETAIL":"Details",
+
+  "TRY_Integer":"You are not entering an integer, please enter an integer!",
+  "TRY_Beyond":"Beyond the random range, please re-enter!",
+
+  "TIME_TEXT":"",
+  "TIME_INFORMATION1":"Tower of Time is a blockchain-based Quantum Random Number Generator (QRNG) that provides free, permanent quantum random source for universities and research institutions anywhere, anytime. It works in a way very similar to radio tower, hence the name “Tower of Time”.",
+  "TIME_INFORMATION2":"Tower of Time use on-chain information of En-Tan-Mo blockchain as random seeds and generates random sequences that are evenly distributed, verifiable and can be neither changed by a single input nor tempered with via a combination of sequential computing, chaotic mapping, hash collision and delay superposition.",
+
+  "RANDOM_TEXT":"",
+  "RANDOM_INFORMATION1":"Quantum key distribution(QKD) has always been the core of quantum cryptography. Its unconditional security is made possible by anti-eavesdropping channel and one-time pad. For one-time pad system, a key will never be used for a second time. In other words, the random bit sequence has to be truly random. In real-world situations, quantum key is derived from random bit sequence from which random bits are drawn by both the receiver and the sender to prepare and examine the photon state. To ensure the results from the examination are not correlated, the random bit has to be real and not repetitive, meaning only a true random number can guarantee the unconditional security of quantum key distribution. Therefore, how to invent a superspeed, high-performance random number generator has become one of the focus of attention of many researchers.",
+  "RANDOM_INFORMATION2":"",
+
+  "QRNG_TEXT":"",
+  "QRNG_INFORMATION1":"One of the hottest theme of random number generator research is Quantum Random Number Generator (QRNG) which produces real random number by exploiting the uncertainty of massive quantum activities. Quantum Random Number Generator (QRNG) is also commonly viewed as a reliable random number provider when it comes to quantum key distribution, because it is capable to generate gigabit random number from a large quantity of quantum. But to observe something so small like a micro quantum requires highly-sophisticated and costly apparatus. Plus, the noise caused by the measurement would inevitably affects the quantum state, leading to false result. ",
+  "QRNG_INFORMATION2":"If we think of mankind from the macro perspective, then human beings are nothing but quantum in the vast universe whose actions are controlled by one’s free will instead of physical laws. Therefore, human behaviors are random and whatever resulted from that random actions can be seen as a source of randomness. Blockchain is random in its nature for it is a consensus-based application where users are able to make transactions freely. Besides, on-chain data cannot be tempered with and are open for verification by everyone. Block data are created by transaction of multiple nodes. As we just mentioned, individual behavior is not yet predicable, let alone behaviors a large number of people during transactions. As such, on-chain data are a source of randomness in the macro-world.",
+
+  "WHY_TEXT":"",
+  "WHY_INFORMATION1":"Every 3 seconds a new block is created on En-Tan-Mo blockchain, which enables Tower of Time to generate a random number in the same time slot. It is impossible to manipulate or predict the next random number because under En-Tan-Mo’s open-source quantum chaotic algorithm everyone gets to contribute to its generation. The reason why Tower of Time chooses En-Tan-Mo to be its partner of all public blockchains is not only that En-Tan-Mo is a strong technology provider but that we share the same ideas and values. In the future, data will increase exponentially as Dapps on En-Tan-Mo side-chain mushroom. This means that Tower of Time would be able to produce random number at gigabit speed, making it a perfect choice of random number source for key encryption system in quantum communication. ",
+  "WHY_INFORMATION2":"",
+
+  "FREE_TEXT":"",
+  "FREE_INFORMATION1":"Scientists from En-Tan-Mo always believe that the fruits of scientific research need to be shared and put into good use. That’s why En-Tan-Mo, as an organization dedicated to the development of blockchain technology, is guided by the simple faith—From the people, by the people—ever since its inception. Driven by the same value, team members behind Tower of Time decides to provide their product to universities and research institutions for free as blockchain-based QRNG holds vast promise for science research at both theoretical and practical level. ",
+  "FREE_INFORMATION2":"After going through a simple application procedures, universities and research institutions around the world can gain straight access to the QRNG which will save them both time and money. ",
+
+  "API_TEXT":"",
+  "API_INFORMATION1":"For the convenience of research personnel, Tower of Time offers a large number of APIs, allowing them to customize the specifications and frequency of random number output via simple changes to parameters based on API document’s instructions. Plus, as Tower of Time is an independent side-chain Dapp on En-Tan-Mo blockchain, all the random number it generates are recorded on the chain which makes them traceable, reliable and authentic. ",
+  "API_INFORMATION2":"*API-related functions are for research purpose only and will be available when En-Tan-Mo main net goes live. ",
+
+  "DETAILS_TITLE01":"Random Details",
+  "DETAILS_RESULT":"Result",
+  "DETAILS_GROUP":"Group ",
+  "DETAILS_MIN":"Range ",
+  "DETAILS_TYPE":"Type",
+  "DETAILS_NUM":"Number ",
+  "DETAILS_QRN":"Quantum Random Number Q",
+  "DETAILS_SOURCE":"Block Information For Q Values",
+  "DETAILS_TITLE02":"Validation Results",
+  "DETAILS_PLACEHODE":"Input index",
+  "DETAILS_HEAD":"Result"
+
+}

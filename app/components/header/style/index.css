@@ -1,0 +1,99 @@
+.header {
+  width: 100%;
+  min-height: 60px;
+  background-color: rgba(0, 0, 0, 0.85);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 4;
+}
+.header > .container {
+  min-height: 60px;
+  padding: 0 44px;
+}
+.header > .container .lang-selected {
+  color: #39707a;
+}
+.header > .container .header-land {
+  color: #fff;
+}
+.header > .container .langchange {
+  background-color: black;
+  border: 0;
+}
+.header-brand {
+  width: 46px;
+  height: 43px;
+  background-image: url('../image/logo-sm.png');
+  background-size: 46px 43px;
+}
+.header-toggle > i {
+  height: 60px;
+  line-height: 60px;
+}
+.header-collapse {
+  display: none;
+  min-height: 100vh;
+}
+.header-collapseShow {
+  display: block;
+  width: 100%;
+  text-align: left;
+}
+.header .ant-menu-horizontal {
+  border-bottom: 0;
+}
+.header .ant-menu-horizontal > .ant-menu-item,
+.header .ant-menu-horizontal > .ant-menu-submenu {
+  border-bottom: 0;
+}
+.header .ant-menu-horizontal > .ant-menu-item:hover,
+.header .ant-menu-horizontal > .ant-menu-submenu:hover,
+.header .ant-menu-horizontal > .ant-menu-item-active,
+.header .ant-menu-horizontal > .ant-menu-submenu-active,
+.header .ant-menu-horizontal > .ant-menu-item-open,
+.header .ant-menu-horizontal > .ant-menu-submenu-open,
+.header .ant-menu-horizontal > .ant-menu-item-selected,
+.header .ant-menu-horizontal > .ant-menu-submenu-selected {
+  border-bottom: 0;
+}
+.header .ant-menu-inline,
+.header .ant-menu-vertical,
+.header .ant-menu-vertical-left {
+  border-right: 0;
+}
+.header .ant-menu-vertical .ant-menu-item:after,
+.header .ant-menu-vertical-left .ant-menu-item:after,
+.header .ant-menu-vertical-right .ant-menu-item:after,
+.header .ant-menu-inline .ant-menu-item:after {
+  border-right: 0;
+}
+.header .ant-menu-submenu > .ant-menu {
+  background-color: transparent;
+}
+@media screen and (min-width: 768px) {
+  .header-brand {
+    width: 172px;
+    height: 36px;
+    background-image: url('../image/logo.png');
+    background-repeat: no-repeat;
+    background-size: 172px 36px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .header > .container {
+    padding: 0 88px;
+  }
+  .header-toggle {
+    display: none;
+  }
+  .header-collapse {
+    display: block;
+    min-height: unset;
+  }
+}
+@media screen and (min-width: 1080px) {
+  .header > .container {
+    padding: 0 144px;
+  }
+}
