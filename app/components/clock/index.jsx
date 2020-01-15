@@ -26,7 +26,7 @@ class Clock extends React.Component {
     const container = ReactDOM.findDOMNode(this.refs[clsName]);
   }
   startQRNG() {
-    socket = io("http://47.111.165.42:4567");
+    socket = io("http://47.110.42.170:4567");
     let arr = [];
     socket.on("newrandom", msg => {
       if (this.refs.countUp) {
