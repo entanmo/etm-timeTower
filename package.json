@@ -45,6 +45,6 @@
     "react-intl-universal": "^1.10.1",
     "react-router": "2.8.1",
     "socket.io-client": "^2.2.0",
-    "swiper": "^4.3.5"
+    "swiper": "^6.5.1"
   }
 }
